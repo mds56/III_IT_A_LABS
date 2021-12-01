@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$str = "My first PHP script!";
+echo strlen($str);
+?> 
+
+</body>
+</html>
+
+
+2.count of the string
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$str = "Helloworld is the world";
+echo str_word_count($str);
+?>  
+
+</body>
+</html>
+
+
+
+3.search for specific string
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+echo strpos("Hello world!", "wo");
+?> 
+ 
+</body>
+</html>
+
+4.reverse a string
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$str = "My first PHP script!";
+echo strrev($str);
+?> 
+
+</body>
+</html>
