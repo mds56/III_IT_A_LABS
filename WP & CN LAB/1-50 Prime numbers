@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php  
+$count = 0;  
+$num=2;  
+while ($count <15)  
+{  
+ $dcount=0;  
+for ( $i=1; $i<=$num; $i++)  
+{  
+if (($num%$i)==0)  
+{  
+$dcount++;  
+}  
+}  
+if ($dcount<3)  
+{  
+echo $num;
+echo "<br>";
+$count=$count+1;  
+}  
+$num=$num+1;  
+}  
+?>  
+</body>
+</html>
