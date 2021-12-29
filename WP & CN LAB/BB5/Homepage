@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <style>
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+</style>
+
+<video autoplay muted loop id="myVideo">
+  <source src="video.mp4" type="video/mp4">
+</video>
+
+<audio src="sound.mp3" autoplay="on"></audio>
+
+<!--<embed src="C:\Users\ksanj\OneDrive\Desktop\sound.mp3" align="baseline" border="0" width="145" 
+height="60" autostart="true" loop="true">
+<embed name="sound" src="sound.mp3" loop="true" hidden="true" autostart="true">
+<audio controls autoplay>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="sound.mp3" type="audio/mpeg">
+</audio>-->
+
+</body>
+</html>
