@@ -127,3 +127,14 @@ android:text="Button"
 app:layout_constraintBottom_toBottomOf="parent" />
 </LinearLayout>
 </ScrollView>
+
+
+string.xml(Linear Layout)
+<resources>
+<string name="app_name">Rlayout</string>
+<string-array name="initials_items">
+<item>Telangana</item>
+<item>Andhra</item>
+<item>Chennai</item>
+</string-array>
+</resources>
