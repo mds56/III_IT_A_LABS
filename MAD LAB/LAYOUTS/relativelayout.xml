@@ -164,3 +164,15 @@ android:layout_marginTop="2dp"
 android:text="Submit"
 android:textColor="#00CC99" />
 </RelativeLayout>
+
+
+
+string.xml(Relative Layout)
+<resources>
+<string name="app_name">Rlayout</string>
+<string-array name="initials_items">
+<item>Telangana</item>
+<item>Andhra</item>
+<item>Chennai</item>
+</string-array>
+</resources>
